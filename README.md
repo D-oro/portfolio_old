@@ -1,4 +1,4 @@
-# Under construction
+# This is my portfolio website
 Head to https://d-oro.github.io/portfolio/ to view my portfolio
 
 # Getting Started with Create React App
