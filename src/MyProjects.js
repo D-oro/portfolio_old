@@ -1,4 +1,4 @@
-
+import flower from './images/flower.png'
 
 const MyProjects = () => {
     return(
@@ -28,7 +28,10 @@ const MyProjects = () => {
                 </p>
             </main>
 
-            <footer> And this beautiful website of course :)</footer>
+            <footer>
+                    ... and this beautiful website of course :)
+                    <div id="flower"><img src={flower} id="picture" alt="yellow flower on a meadow"/></div>  
+                </footer>
         </>
     )
 }

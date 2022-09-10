@@ -73,13 +73,15 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
   font-size: 1.2em;
 }
 
 #picture{
-  height: 40vh;
-  width: 20vw;
+  height: 80px;
+  width: 80px;
   border-radius: 1000000000000px;
+  padding: 10px;
 }
+
