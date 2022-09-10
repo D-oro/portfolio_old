@@ -1,42 +1,26 @@
-import './App.css';
-import apple from './images/apple.png'
-import portrait from './images/portrait.png'
-import berries from './images/berries.png'
-import sky from './images/sky.png'
-import flower from './images/flower.png'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import NavBar from './NavBar';
+import HomePage from './HomePage';
+import SkillSet from './SkillSet';
+import MyProjects from './MyProjects';
+import ContactInfo from './ContactInfo';
 
-function App() {
-  return (
-    <div className="App">
 
-      <header>
-        <div id="square"><img src={portrait} id="portrait" alt="portrait of author"/></div>
-        <text id="headertext">Portfolio Doro Hinrichs</text>
-      </header>
-
-      <main>
-        <article id="maintext">Psychologist graduate turned Junior Software Developer through 16 week intensive coding bootcamp with CodeClan from July-October 2022.</article>
-        <img src={flower} id="picture" alt="an apple on a tree"/>
-        <aside id="aside">
-          Proficient in:
-          <ul>
-            <li>Python</li>
-            <li>Javascript</li>
-            <li>Java</li>
-            <li>CSS</li>
-            <li>HTML</li>
-            <li>React</li>
-          </ul>
-          </aside>
-      </main>
-
-      <footer>
-        Github
-        LinkedIn
-      </footer>
-    
+const App = () => {
+  return(
+    <div>
+      <Router>
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>
+          <Route path="/skills" element={<SkillSet/>}/>
+          <Route path="/projects" element={<MyProjects/>}/>
+          <Route path="/contact" element={<ContactInfo/>}/>
+        </Routes>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+

@@ -1,78 +1,85 @@
-.App{
-  background-image: linear-gradient(to bottom right, #274472, 
-  #ABC7E3);
-  color: #C3E0E5;
-  font-family: Andale mono, Trebuchet, Helvetica, Tahoma, Verdana, sans-serif;
+
+html{
+  background: linear-gradient(to bottom right,  
+  #05445E, #D4F1F4);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none; color: #D4F1F4;
 }
 
 header{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
   justify-content: space-around;
-  height: 25vh;
+  height: 10vh;
   width: 100vw;
-  font-size: x-large;
-  font-weight: bold;
-  background-color: #274472;
-  border-style: solid;
-  border-width: 7px;
-  border-color: blue;
- }
+  margin: 0;
+  font-size: 1.7em;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+}
 
  #square{
-  height: 120px;
-  width: 90px;
-  border-style: solid;
+  height: 250px;
+  width: 190px;
+  border-style: solid; 
+  border-color: #05445E;
   border-width: 7px;
-  color: #C3E0E5;
  }
 
  #portrait{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120px;
-  width: 90px;
+  height: 250px;
+  width: 190px;
  }
 
- #headertext{
-  font-weight: bold;
-  font-size: 2em;
- }
-
-
- main{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 75vh;
-  width: 100vw;
+#text1{
+  height: 30vh;
+  width: 40vw;
+  font-size: 1em;
+  padding: 2em;
 }
 
 #maintext{
-  height: 30vh;
-  width: 40vw;
+    height: 40vh;
+    width: 40vw;
+    font-size: 1.3em;
+}
+
+#contact{
   font-size: 1.5em;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 100vw;
+  font-size: 1.2em;
 }
 
 #picture{
   height: 40vh;
   width: 20vw;
   border-radius: 1000000000000px;
-}
-
-#aside{
-  height: 30vh;
-  width: 20vw;
-  font-size: 1.5em;
-}
-
-footer {
-  height: 10vh;
-  width: 80vw;
-  font-weight: bold;
-  font-size: 2em;
-  padding-left: 10px
 }
