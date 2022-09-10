@@ -7,7 +7,7 @@ const SkillSet = () => {
             <header>Skillset</header>
             <main> 
                 <div>
-                <h2>Main Languages and Softwares</h2>
+                <h2>Main Languages and Software</h2>
                 <ul>
                     <li>Python</li>
                     <li>JavaScript</li>
