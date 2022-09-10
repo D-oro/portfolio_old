@@ -34,7 +34,7 @@ const NavBar = () => {
         <Navigation>
             <Wrapper>
                 <ElementOfNav>
-                    <Link to="/">Home</Link>
+                    <Link to="/portfolio">Home</Link>
                 </ElementOfNav>
             </Wrapper>
             <Wrapper>
