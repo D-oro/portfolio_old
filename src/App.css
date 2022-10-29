@@ -1,4 +1,5 @@
 
+
 html{
   background: linear-gradient(to bottom right,  
   #05445E, #D4F1F4);
@@ -76,6 +77,10 @@ footer{
   height: 40vh;
   width: 100vw;
   font-size: 1.2em;
+}
+
+p{
+  padding: 10%;
 }
 
 #picture{

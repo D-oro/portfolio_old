@@ -1,6 +1,3 @@
-
-
-
 const SkillSet = () => {
     return(
         <>
@@ -42,8 +39,7 @@ const SkillSet = () => {
             </main>
 
             <footer>
-                <p>I have a background in psychology, mental health, digital health and research methods.</p>
-                <p>I'm fluent in English, German and French.</p>
+                <p>I have a background in psychology, mental health, digital health and research methods.<br></br>I'm fluent in English, German and French.</p>
             </footer>
         </>
     )

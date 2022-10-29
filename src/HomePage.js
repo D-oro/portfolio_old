@@ -1,23 +1,19 @@
 import './App.css';
-import portrait from './images/portrait.png'
-
 
 const HomePage = () => {
     return(
         <>
-            <header>Portfolio Doro Hinrichs</header>
+            <header>CodeClan Capstone Project:</header>
 
             <main>
-            <div id="square"><img src={portrait} id="portrait" alt="portrait of author"/></div>
 
-            <article id="maintext">
-                <p>Psychology graduate turned Software Developer through 16 week intensive coding bootcamp with CodeClan from July-October 2022.</p>
-                <p>Have a look around to find our more about my background, my skillset and the projects that I've worked on. </p>
-            </article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9YJIx-vX5ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             </main>
 
-            test push
-
+            <footer>
+                <p>Psychology graduate turned Software Developer through 16 week intensive coding bootcamp with CodeClan in Glasgow from July-October 2022.</p>
+            </footer>
         </>
     )
 }

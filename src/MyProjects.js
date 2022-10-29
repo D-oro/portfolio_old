@@ -26,12 +26,16 @@ const MyProjects = () => {
                     while figuring out how to make the checkers pieces move to the correct places.
                     <h4><a href="https://github.com/GreigK/ReactCheckersTeam">GitHub Repo</a></h4>
                 </p>
-            </main>
 
-            <footer>
-                    ... and this beautiful website of course :)
-                    <div id="flower"><img src={flower} id="picture" alt="yellow flower on a meadow"/></div>  
-                </footer>
+                <p id="text1">
+                    <h3>Adventure Game Group Project:</h3>
+                    For our capstone project, my group and I built an RPG inspired adventure game.  
+                    <h4><a href="https://github.com/D-oro/AventureGame-CapstoneProjectBackend">GitHub Backend</a></h4>
+                    <h4><a href="https://github.com/D-oro/AventureGame-CapstoneProjectFrontend">GitHub Frontend</a></h4>
+                    <h4><a href="https://www.youtube.com/watch?v=9YJIx-vX5ig&ab_channel=DoroCodes">1 min playthrough</a></h4>
+                </p>
+
+            </main>
         </>
     )
 }
