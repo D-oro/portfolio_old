@@ -2,12 +2,15 @@
 to learn more, please visit https://d-oro.github.io/portfolio/ 
 
 
-### npm installations needed:
+### npm installations & commands needed:
 npm install styled-components
 - needed for the styled components in NavBar.js
 
 npm install react-router-dom
 - needed for App.js
+
+npm run deploy
+- needed for updates for GitHub Pages 
 
 # Getting Started with Create React App
 
