@@ -1,6 +1,14 @@
 # Welcome to my Portfolio
 to learn more, please visit https://d-oro.github.io/portfolio/ 
 
+
+### npm installations needed:
+npm install styled-components
+- needed for the styled components in NavBar.js
+
+npm install react-router-dom
+- needed for App.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
